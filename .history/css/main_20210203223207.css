@@ -155,6 +155,7 @@ header { */
 
 .column {
   position: relative;
+  align-content: center;
   /* background-color: rgb(243, 222, 194); */
   /* margin: 1rem; */
 }
@@ -217,10 +218,6 @@ header { */
   .logo {
     max-height: 3rem;
     position: static;
-  }
-
-  .things img {
-    display: none;
   }
   
   .s-hide {
@@ -426,16 +423,15 @@ MODULES
   color: white;
 }
 
-.things img {
-  width: 70%;
-  padding: 15%;
-}
-
 .email {
   background-color: #de6262;
   width: 100%;
   height: 10%;
   color: #fff;
+}
+
+.about img {
+  width: 70%;
 }
 
 /* main nav colours & icons */

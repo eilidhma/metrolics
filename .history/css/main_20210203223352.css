@@ -218,10 +218,6 @@ header { */
     max-height: 3rem;
     position: static;
   }
-
-  .things img {
-    display: none;
-  }
   
   .s-hide {
     display: none;
@@ -426,9 +422,8 @@ MODULES
   color: white;
 }
 
-.things img {
-  width: 70%;
-  padding: 15%;
+.column img {
+  
 }
 
 .email {

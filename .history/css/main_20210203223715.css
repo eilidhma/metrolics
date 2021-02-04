@@ -220,7 +220,8 @@ header { */
   }
 
   .things img {
-    display: none;
+    width: 70%;
+    padding: 15%;
   }
   
   .s-hide {
