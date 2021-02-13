@@ -231,33 +231,18 @@ header { */
     position: static;
   }
 
-  /* .m-things img {
+  .m-things img {
     display: flex;
     max-width: 4rem;
-    width: 100px;
-    height: 100px;
-    max-height: 4rem;
+    padding: 0rem;
     flex-grow: 1;
-    margin: 0 auto;
-  } */
+  }
 
   .things__text {
     display: flex;
     flex-direction: column;
     flex-grow: 6;
-    align-items: flex-start;
-    width: 100%;
-    height: 100%;
   }
-
-  .things__img {
-    display: flex;
-    flex-grow: 1;
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-  }
-  
 
   .m-things {
     display: flex;
@@ -336,13 +321,6 @@ header { */
   .row-span {
     grid-column-start: 1;
     grid-column-end: -1;
-  }
-
-  .things__img {
-    object-fit: cover;
-    width: 100%;
-    height: 60%;
-
   }
 
   /* medium and up main navigation */
